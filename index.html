@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treva - Landing Page</title>
+    <style>
+        @font-face {
+            font-family: 'HK Grotesk Legacy';
+            src: url('assets/fonts/HKGrotesk-LegacyItalic.otf') format('opentype');
+            font-weight: normal;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-Italic.otf') format('opentype');
+            font-weight: normal;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk Legacy';
+            src: url('assets/fonts/HKGrotesk-BoldLegacyItalic.otf') format('opentype');
+            font-weight: bold;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-ExtraBold.otf') format('opentype');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-LightItalic.otf') format('opentype');
+            font-weight: 300;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-Light.otf') format('opentype');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk Light Legacy';
+            src: url('assets/fonts/HKGrotesk-LightLegacy.otf') format('opentype');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-Medium.otf') format('opentype');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk Light Legacy';
+            src: url('assets/fonts/HKGrotesk-LightLegacyItalic.otf') format('opentype');
+            font-weight: 300;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-MediumItalic.otf') format('opentype');
+            font-weight: 500;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk Legacy';
+            src: url('assets/fonts/HKGrotesk-RegularLegacy.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk Medium Legacy';
+            src: url('assets/fonts/HKGrotesk-MediumLegacyItalic.otf') format('opentype');
+            font-weight: 500;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-Regular.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk Medium Legacy';
+            src: url('assets/fonts/HKGrotesk-MediumLegacy.otf') format('opentype');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk SmBold Legacy';
+            src: url('assets/fonts/HKGrotesk-SemiBoldLegacyItalic.otf') format('opentype');
+            font-weight: 600;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-SemiBold.otf') format('opentype');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-Black.otf') format('opentype');
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-SemiBoldItalic.otf') format('opentype');
+            font-weight: 600;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk SemiBold Legacy';
+            src: url('assets/fonts/HKGrotesk-SemiBoldLegacy.otf') format('opentype');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-Bold.otf') format('opentype');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk Legacy';
+            src: url('assets/fonts/HKGrotesk-BoldLegacy.otf') format('opentype');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'HK Grotesk';
+            src: url('assets/fonts/HKGrotesk-BoldItalic.otf') format('opentype');
+            font-weight: bold;
+            font-style: italic;
+            font-display: swap;
+        }
+    </style>
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top treva--nav">
+            <div class="container">
+                <a class="navbar-brand" href="#" aria-label="Home">
+                    <img src="assets/images/logo.svg" alt="logo" title="logo" role="img" aria-label="Home">
+                </a>
+
+                <ul class="navbar-nav treva--navbar left mx-auto" role="menubar" aria-label="treva menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Company</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav treva--navbar right ml-auto" role="menubar" aria-label="treva menu login">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="assets/images/united-states.svg" alt="US Flag" title="US Flag"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link treva_nav_cta treva_login" href="#">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link treva_nav_cta treva_signup" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="treva__hero">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1>Lorem ipsum dolor sit amet consectetur </h1>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="javascript;" class="btn btn_hero_cta" role="link" aria-label="Sign Up" title="signup">
+                        Sign Up Now
+                    </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="hero_img_wrapper text-right">
+                            <img src="assets/images/hero.svg" loading="lazy" role="img" aria-label="hero image" width="393" height="454" alt="Hero Image" title="Hero Image" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="treva__product">
+            <div class="container">
+                <div class="treva_pattern">
+                    <img src="assets/images/pattern.svg" aria-hidden="true"></div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="treva_product_gallery--wrapper">
+                            <div class="treva_products">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img data-src="assets/images/image_01.jpg" srcset="assets/images/image_01.jpg 1x, assets/images/image_01@2x.jpg 2x, assets/images/image_01@3x.jpg 3x" class="swiper-lazy" alt="Image 01" title="Image 01" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-src="assets/images/image_02.jpg" srcset="assets/images/image_02.jpg 1x, assets/images/image_02@2x.jpg 2x, assets/images/image_02@3x.jpg 3x" class="swiper-lazy" alt="Image 02" title="Image 02" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-src="assets/images/image_03.jpg" srcset="assets/images/image_03.jpg 1x, assets/images/image_03@2x.jpg 2x, assets/images/image_03@3x.jpg 3x" class="swiper-lazy" alt="Image 03" title="Image 03" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-src="assets/images/image_04.jpg" srcset="assets/images/image_04.jpg 1x, assets/images/image_04@2x.jpg 2x, assets/images/image_04@3x.jpg 3x" class="swiper-lazy" alt="Image 04" title="Image 04" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-src="assets/images/image_05.jpg" srcset="assets/images/image_05.jpg 1x, assets/images/image_05@2x.jpg 2x, assets/images/image_05@3x.jpg 3x" class="swiper-lazy" alt="Image 05" title="Image 05" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-src="assets/images/image_06.jpg" srcset="assets/images/image_06.jpg 1x, assets/images/image_06@2x.jpg 2x, assets/images/image_06@3x.jpg 3x" class="swiper-lazy" alt="Image 06" title="Image 06" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-src="assets/images/image_07.jpg" srcset="assets/images/image_07.jpg 1x, assets/images/image_07@2x.jpg 2x, assets/images/image_07@3x.jpg 3x" class="swiper-lazy" alt="Image 07" title="Image 07" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-src="assets/images/image_08.jpg" srcset="assets/images/image_08.jpg 1x, assets/images/image_08@2x.jpg 2x, assets/images/image_08@3x.jpg 3x" class="swiper-lazy" alt="Image 08" title="Image 08" />
+                                        <div class="swiper-lazy-preloader"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="treva_products_thumb">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/image_01.jpg" loading="lazy" srcset="assets/images/image_01.jpg 1x, assets/images/image_01@2x.jpg 2x, assets/images/image_01@3x.jpg 3x" alt="Image 01" title="Image 01" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/image_02.jpg" loading="lazy" srcset="assets/images/image_02.jpg 1x, assets/images/image_02@2x.jpg 2x, assets/images/image_02@3x.jpg 3x" alt="Image 01" title="Image 01" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/image_03.jpg" loading="lazy" srcset="assets/images/image_03.jpg 1x, assets/images/image_03@2x.jpg 2x, assets/images/image_03@3x.jpg 3x" alt="Image 01" title="Image 01" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/image_04.jpg" loading="lazy" srcset="assets/images/image_04.jpg 1x, assets/images/image_04@2x.jpg 2x, assets/images/image_04@3x.jpg 3x" alt="Image 01" title="Image 01" />
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/image_05.jpg" loading="lazy" srcset="assets/images/image_05.jpg 1x, assets/images/image_05@2x.jpg 2x, assets/images/image_05@3x.jpg 3x" alt="Image 01" title="Image 01" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/image_06.jpg" loading="lazy" srcset="assets/images/image_06.jpg 1x, assets/images/image_06@2x.jpg 2x, assets/images/image_06@3x.jpg 3x" alt="Image 01" title="Image 01" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/image_07.jpg" loading="lazy" srcset="assets/images/image_07.jpg 1x, assets/images/image_07@2x.jpg 2x, assets/images/image_07@3x.jpg 3x" alt="Image 01" title="Image 01" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/image_08.jpg" loading="lazy" srcset="assets/images/image_08.jpg 1x, assets/images/image_08@2x.jpg 2x, assets/images/image_08@3x.jpg 3x" alt="Image 01" title="Image 01" />
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="prod--nav prod-button-next">
+                                <img src="assets/images/chevron.svg" title="next" alt="next">
+                            </div>
+                            <div class="prod--nav prod-button-prev">
+                                <img src="assets/images/chevron.svg" title="next" alt="next">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="treva_product_detail px-4">
+                            <h3 class="prod--title">Pharetra Convallis</h3>
+                            <p class="prod--desc">Euismod in pellentesque massa placerat duis ultricies lacus sed. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Commodo nulla facilisi nullam vehicula!</p>
+                        </div>
+                        <div class="treva_product_review px-4">
+                            <span class="rev_star full"></span>
+                            <span class="rev_star full"></span>
+                            <span class="rev_star full"></span>
+                            <span class="rev_star full"></span>
+                            <span class="rev_star half"></span>
+                            <span class="rev_text">23 Reviews</span>
+                        </div>
+                        <div class="treva_product_color px-4">
+                            <h5 class="light_title">COLOR</h5>
+                            <div class="treva_color_opt--wrapper">
+                                <div class="treva_color_kit"><span>Nordvalla dark grey</span></div>
+                                <div class="treva_color_kit"><span>Beige</span></div>
+                                <div class="treva_color_kit"><span>Grey</span></div>
+                                <div class="treva_color_kit"><span>Skiftebo yellow</span></div>
+                                <div class="treva_color_kit"><span>Kelinge beige</span></div>
+                                <div class="treva_color_kit"><span>Vibberbo black/beige</span></div>
+                            </div>
+                        </div>
+                        <div class="treva_product_quantity px-4">
+                            <h5 class="light_title">quantity</h5>
+                            <div class="quantity_input_wrapper">
+                                <button class="btn btn-input" id="minus">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M9.5 6.5H2.5V5.5H9.5V6.5Z" fill="#8CA4AB"/>
+                                    </svg>
+                                </button>
+                                <span class="quan-val">1</span>
+                                <button class="btn btn-input" id="plus">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M9.5 6.5H6.5V9.5H5.5V6.5H2.5V5.5H5.5V2.5H6.5V5.5H9.5V6.5Z" fill="#8CA4AB"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,339 @@
+    body {
+        font-family: 'HK Grotesk';
+    }
+    
+    .treva--nav {
+        padding-top: 16px;
+        background-color: #03062F;
+    }
+    
+    .treva--navbar.left li:not(:last-child) {
+        margin-right: 33px;
+    }
+    
+    .treva--navbar li a {
+        font-family: 'HK Grotesk';
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 23px
+    }
+    
+    .treva--navbar.right li:not(:last-child) {
+        margin-right: 16px;
+    }
+    
+    .treva--navbar .nav-link.treva_nav_cta {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-family: 'HK Grotesk';
+        font-weight: bold;
+        line-height: 24px;
+        border-radius: 2px;
+        box-sizing: border-box;
+    }
+    
+    .treva--navbar .nav-link.treva_nav_cta.treva_login {
+        background-color: #030F3F;
+        border: 1px solid #2B83EA;
+    }
+    
+    .treva--navbar .nav-link.treva_nav_cta.treva_signup {
+        color: #528FF0;
+        background-color: #FFFFFF;
+        border: 1px solid #EDEDED;
+        position: relative;
+        padding-right: 44px;
+    }
+    
+    .treva--navbar .nav-link.treva_nav_cta.treva_signup:after {
+        content: "";
+        width: 16px;
+        height: 16px;
+        background-image: url(../images/arrow_forward.svg);
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: 0.3s all ease-in;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+    
+    .treva--navbar .nav-link.treva_nav_cta.treva_signup:hover:after {
+        right: 13px;
+    }
+    
+    .treva__hero {
+        padding-top: 135px;
+        background-color: transparent;
+        background-image: url(../images/hero_bg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        min-height: 750px;
+        position: relative;
+        z-index: 3;
+    }
+    
+    .treva__hero h1 {
+        font-family: 'HK Grotesk';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 53px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        padding-right: 3rem;
+        padding-bottom: 32px;
+        position: relative;
+        margin-bottom: 32px;
+    }
+    
+    .treva__hero h1:after {
+        content: "";
+        width: 24px;
+        height: 4px;
+        background: #58C19C;
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .treva__hero p {
+        font-family: 'HK Grotesk';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.7);
+        padding-right: 10rem;
+        margin-bottom: 32px;
+    }
+    
+    .btn_hero_cta {
+        background: #2783F3;
+        border-radius: 2px;
+        padding: 12px 20px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 24px;
+        color: #ffffff;
+    }
+    
+    .btn_hero_cta:hover,
+    .btn_hero_cta:focus,
+    .btn_hero_cta:visited {
+        color: #ffffff;
+    }
+    
+    .treva_product_gallery--wrapper {
+        position: relative;
+    }
+    
+    .treva__product {
+        padding-top: 180px;
+        padding-bottom: 120px;
+        position: relative;
+    }
+    
+    .treva_products {
+        width: 450px;
+        overflow: hidden;
+        height: 450px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .treva_products img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .treva_products_thumb {
+        margin-top: 28px;
+    }
+    
+    .treva_products_thumb .swiper-slide {
+        width: 56px !important;
+        height: 56px;
+        border: 1px solid rgba(0, 0, 0, 0.24);
+        border-radius: 4px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .treva_products_thumb .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .prod--nav {
+        height: 48px;
+        width: 48px;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        background: #F4F6F6;
+        border-radius: 50%;
+    }
+    
+    .prod--nav img {
+        width: auto;
+        height: auto;
+        position: absolute;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .prod--nav.prod-button-prev {
+        top: 40%;
+        left: -12px;
+        transform: rotate(0deg) translateY(-40%);
+    }
+    
+    .prod--nav.prod-button-next {
+        right: -12px;
+        top: 40%;
+        transform: rotate(180deg) translateY(40%);
+    }
+    
+    .treva_product_detail {
+        margin-bottom: 32px;
+    }
+    
+    .prod--title {
+        font-family: 'HK Grotesk';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 53px;
+        margin-bottom: 8px;
+        color: #222323;
+    }
+    
+    .prod--desc {
+        font-family: 'HK Grotesk';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #4F5659;
+    }
+    
+    .treva_pattern {
+        background-image: url(../images/pattern.svg);
+        background-size: cover;
+        width: 232px;
+        height: 180px;
+        position: absolute;
+        top: -106px;
+        z-index: 1;
+    }
+    
+    .hero_img_wrapper img {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .treva_product_review {
+        margin-bottom: 40px;
+    }
+    
+    .treva_product_review span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .treva_product_review span.rev_star:not(:last-child) {
+        margin-right: 1.5px;
+    }
+    
+    span.rev_star:after {
+        content: "";
+        height: 18px;
+        width: 18px;
+        display: block;
+        background-image: url(../images/star.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    span.rev_star.half:after {
+        background-image: url(../images/star_half.svg);
+    }
+    
+    .rev_text {
+        font-family: 'HK Grotesk';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .light_title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #939C9F;
+    }
+    
+    .treva_color_opt--wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .treva_color_opt--wrapper .treva_color_kit {
+        flex: 0 0 23%;
+        padding: 14px 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #D8E0E2;
+        box-sizing: border-box;
+        border-radius: 6px;
+        text-align: center;
+    }
+    
+    .treva_color_opt--wrapper .treva_color_kit span {
+        font-family: 'HK Grotesk';
+        color: #545C5F;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    
+    .btn-input {
+        background: #EDF1F2;
+        border-radius: 4px;
+    }
+    
+    .quan-val {
+        padding: 0.375rem 0.75rem;
+    }
+    
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
